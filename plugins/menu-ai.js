@@ -8,15 +8,13 @@ import fetch from 'node-fetch'
 
 const defaultMenu = {
   before: `
-╾━━━━━━━━━━━━━━━━━╼
-⌬ *SALAM :*  %name 
-╾━━━━━━━━━━━━━━━━━╼
+⌬ *Hey :*  %name 
 %readmore
 `.trimStart(),
-  header: '╭─────≼ %category ≽',
-  body: '╎≡ %cmd',
-  footer: '╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢',
-  after: 'BOBIZA 👑',
+  header:'%category ↓',
+  body:'%cmd',
+  footer:'',
+  after:'Himiko Toga 👑',
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
@@ -177,10 +175,10 @@ let tags = {
 	text: text,
 	contextInfo: {
 	externalAdReply: {
-	title: 'قسم خاص   بالذكـاء الاصطــناعـي ',
+	title: 'قسم خاص بالذكاء الاصطـناعـي ',
 	body: 'اليك الاوامر الخاصة بهذا القسم',
-	thumbnailUrl: 'https://telegra.ph/file/22455a32e324068fa1922.jpg',
-	sourceUrl: 'instagram.com/noureddine_ouafy',
+	thumbnailUrl: 'https://telegra.ph/file/3e4bebd3def70bade9d94.jpg',
+	sourceUrl: 'https://chat.whatsapp.com/Fd2BBtD5fmUDrBflNp7cca',
 	mediaType: 1,
 	renderLargerThumbnail: true
 	}}})
