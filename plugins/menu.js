@@ -138,7 +138,7 @@ contextInfo: {
 externalAdReply: {
 title: 'Snop Ex',
 body: "+33605907272",
-thumbnailUrl: 'https://telegra.ph/file/2829c7653514416d207e2.jpg',
+thumbnailUrl: 'https://telegra.ph/file/0ba95d485982d637232ec.jpg',
 sourceUrl: 'https://instagram.com/snop.ex',
 mediaType: 1,
 renderLargerThumbnail: true
